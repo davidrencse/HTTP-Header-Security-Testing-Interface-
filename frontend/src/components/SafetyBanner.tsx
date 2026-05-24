@@ -1,0 +1,3 @@
+export function SafetyBanner() {
+  return <section className='rounded-2xl border border-amber-300/20 bg-amber-400/10 p-4 text-amber-50'><div className='flex flex-col gap-3 md:flex-row md:items-start md:justify-between'><div><h2 className='font-semibold'>Authorization and scope controls are mandatory</h2><p className='mt-1 text-sm text-amber-100/85'>Create target profiles only for systems you own or are explicitly authorized to assess. Runs require backend preflight validation, method/path allowlist checks, rate limit review, and confirmation acknowledgements.</p></div><span className='rounded-full border border-amber-200/30 px-3 py-1 text-xs font-bold uppercase tracking-wide'>Public ranges blocked by default</span></div></section>;
+}
